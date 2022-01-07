@@ -10,7 +10,11 @@ package com.iu.s5;
 public class MyGodMain {
 	public static void main(String[] args) {
 		// SingleTone
-		MyGod mg1 = new MyGod();
+		MyGod mg = MyGod.makeGod();
+		System.out.println(mg);
+		
+		MyGod mg2 = MyGod.makeGod();
+		System.out.println(mg2);
 		
 	}
 }

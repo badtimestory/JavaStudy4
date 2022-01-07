@@ -12,9 +12,9 @@ public class Square {
 	
 	public static void info() {
 		System.out.println("Class Method");
-		System.out.println(this.garo);	// error
+//		System.out.println(this.garo);	// error
 		System.out.println(Square.sero);
-		this.info2();					// error
+//		this.info2();					// error
 	}
 	
 	public void info2() {
